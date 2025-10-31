@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
 :root {
     --White: hsl(0, 0%, 100%);
     --Stone-100: hsl(30, 54%, 90%);
@@ -87,27 +89,28 @@ ul {
     color: var(--Stone-600);
 }
 
-li {
-    color: var(--Rose-800);
-}
+/* ================================= */
+
 
 /* ============================================= */
 li span:nth-child(1) {
     font-weight: 600;
 }
 
-.Ingredients div,.prep div {
+.Ingredients div,
+.prep div {
     margin-bottom: 10px;
     position: relative;
     margin-left: 5px;
-   
+
 }
 
-.Ingredients div{
+.Ingredients div {
     color: var(--Stone-600);
 }
 
-.Ingredients div:before ,.prep div:before{
+.Ingredients div:before,
+.prep div:before {
     content: "";
     width: 4px;
     height: 4px;
@@ -126,5 +129,65 @@ li span:nth-child(1) {
 .hr {
     width: 100%;
     height: 1px;
-    background-color: gray;
+    background-color: #eee;
 }
+
+h2+ol {
+    margin-left: -7px;
+    margin-bottom: 30px;
+}
+
+ol li {
+    font-weight: bold;
+    font-family: "Roboto Mono", monospace;
+    color: var(--Brown-800);
+    margin-bottom: 10px;
+}
+
+ol li span {
+    color: var(--Stone-600);
+    font-family: 'Outfit', sans-serif;
+
+
+}
+
+ol li span:nth-child(1) {
+    font-weight: bold;
+    color: var(--Stone-600);
+}
+
+ol li span:nth-child(2) {
+    color: var(--Stone-600);
+    font-weight: 100;
+}
+
+.nutrition p {
+    margin-bottom: 30px;
+}
+
+.nutrition .hr {
+    margin: 15px auto;
+}
+
+.tol {
+    position: relative;
+    height: 25px;
+}
+
+.tol span:nth-child(1) {
+    position: absolute;
+    left: 30px;
+}
+
+.tol span:nth-child(2) {
+    position: absolute;
+    left: 320px;
+    color: var(--Brown-800);
+    font-weight: bold;
+
+}
+
+.four {
+    margin-bottom: 20px;
+}
+
