@@ -215,8 +215,9 @@ ol li span:nth-child(2) {
     }
 
     img {
-        width: 100%;
+        width: calc(100% + 60px);
         border-radius: unset;
+        margin-top: -40px;
     }
 
     h1 {
