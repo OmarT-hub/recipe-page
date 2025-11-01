@@ -35,6 +35,11 @@ h2 {
     color: var(--Brown-800)
 }
 
+.image {
+    display: flex;
+    justify-content: center;
+}
+
 img {
     width: 630px;
     border-radius: 16px;
@@ -191,3 +196,69 @@ ol li span:nth-child(2) {
     margin-bottom: 20px;
 }
 
+@media (max-width:768px) {
+    body {
+        /* overflow-x: hidden; */
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .container {
+        width: 100%;
+        margin-top: 0;
+        border-radius: unset;
+    }
+
+    img {
+        width: 100%;
+        border-radius: unset;
+    }
+
+    h1 {
+        font-size: 7vw;
+        margin: 4vmin auto;
+    }
+
+    /* .tol span:nth-child(1) {
+        position: static;
+    }
+
+    .tol span:nth-child(2) {
+        margin-left: 0;
+        position: static;
+    } */
+
+    .preparation-time p {
+        margin-bottom: 10px;
+    }
+
+    .preparation-time ul,
+    ul {
+        margin-left: 25px;
+    }
+
+    h2 {
+        margin: 20px auto;
+    }
+
+    .hr {
+        margin: 15px auto;
+    }
+
+    ol li {
+        margin-left: 40px;
+    }
+
+    .tol span:nth-child(1) {
+        left: 10%;
+    }
+    .tol span:nth-child(2) {
+        left: 55%;
+    }
+
+
+}
