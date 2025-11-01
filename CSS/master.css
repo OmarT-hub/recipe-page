@@ -199,6 +199,7 @@ ol li span:nth-child(2) {
 @media (max-width:768px) {
     body {
         /* overflow-x: hidden; */
+        background-color: var(--White);
     }
 
     * {
@@ -256,6 +257,7 @@ ol li span:nth-child(2) {
     .tol span:nth-child(1) {
         left: 10%;
     }
+
     .tol span:nth-child(2) {
         left: 55%;
     }
