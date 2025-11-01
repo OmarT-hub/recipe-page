@@ -34,7 +34,6 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 
 - Semantic **HTML5** markup  
 - **CSS** custom properties  
-- **Flexbox**  
 - **Responsive Design**  
 - **Mobile-first workflow**
 
